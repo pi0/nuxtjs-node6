@@ -9,3 +9,6 @@ and then your nuxt commands will run on node6.
 This is particularly useful for running in AWS Lambda, which currently
 only support node 6.10 as its most recent supported version
 
+# NOTE
+
+The latest build of nuxt-edge supports Node 6.x again by automatically falling back to legacy dist. Useful for Google Cloud Functions users. 
